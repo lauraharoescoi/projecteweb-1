@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "projecteweb-1"
+version = "0.1.0"
+description = ""
+authors = ["lauraharoescoi"]
+readme = "README.md"
+packages = [{include = "projecteweb_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+urllib3 = "^1.26.14"
+bs4 = "^0.0.1"
+xmltodict = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
